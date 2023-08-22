@@ -1,0 +1,38 @@
+title {
+    font-family: Georgia, serif;
+}
+body {
+    font-family: Arial,  sans-serif; /* keluarga font */
+    font-size: 11px; /* Ukuran font utama pada tag <p></p> */
+    background-color: #5988FF; /* Warna latar belakang laman web */
+    color: #FFFFFF; /* Warna teks */ 
+}
+h1:hover {
+    animation: color-change 3s infinite;
+    font-size: 24px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+p {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+div {
+    border: #FFFFFF;
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
